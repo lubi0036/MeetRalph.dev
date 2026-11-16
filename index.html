@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralph Lubin | Peaceful Cosmic Portfolio</title>
+    <meta name="description" content="Mitchell's peaceful cosmic portfolio showcasing development, design, and creative projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="loading-screen" aria-live="polite">
+        <div class="spaceship-launch"></div>
+        <p>Entering Ralph’s Universe...</p>
+    </div> 
+
+    <div id="cursor" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <nav class="top-nav">
+            <div class="brand">M</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="toggles">
+                <button id="theme-toggle" type="button">Theme</button>
+                <button id="peace-toggle" type="button">Peace Mode</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <canvas id="stars"></canvas>
+            <div class="hero-content">
+                <p class="eyebrow">Creative developer • problem solver • calm thinker</p>
+                <h1 class="fade-in">Ralph</h1>
+                <h2 class="fade-in delay">Developer • Creator • Peace Seeker</h2>
+                <p class="hero-copy fade-in slow">
+                    I design thoughtful digital experiences that blend creativity, technology, and calm innovation, one clean interface at a time.
+                </p>
+                <div class="hero-actions fade-in slow">
+                    <a href="#about" class="cta morph">Explore My Universe</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-heading">
+                <p class="section-kicker">Who I am</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-container">
+                <div class="blob-frame" aria-label="Ralph profile illustration">
+                    <div class="profile-visual"><span>MK</span></div>
+                </div>
+                <div class="about-copy-wrap">
+                    <p class="about-text">
+                        I’m Ralph, a multilingual full stack web developer and creator based in Ottawa.
+                        I build peaceful digital experiences that blend creativity, technology,
+                        and modern design. My work is shaped by curiosity, problem-solving,
+                        and a desire to make the web feel more human.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="morph">GitHub</a>
+                        <a href="https://www.linkedin.com/in/ralphlubin" class="morph">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-heading">
+                <p class="section-kicker">Strengths</p>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-bubble morph">HTML5</div>
+                <div class="skill-bubble morph">CSS3</div>
+                <div class="skill-bubble morph">JavaScript</div>
+                <div class="skill-bubble morph">C#</div>
+                <div class="skill-bubble morph">ASP.NET</div>
+                <div class="skill-bubble morph">MySQL</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-heading">
+                <p class="section-kicker">Selected work</p>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card morph">
+                    <div class="project-visual project-one"></div>
+                    <div class="project-body">
+                        <h3>Project One</h3>
+                        <p>A modern web app built with peace, clarity, and creativity.</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn morph">View Project</a>
+                            <a href="#" class="project-btn morph">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card morph">
+                    <div class="project-visual project-two"></div>
+                    <div class="project-body">
+                        <h3>Project Two</h3>
+                        <p>An interactive experience inspired by cosmic motion and storytelling.</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn morph">View Project</a>
+                            <a href="#" class="project-btn morph">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-heading">
+                <p class="section-kicker">Let’s connect</p>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <form id="contact-form" novalidate>
+                    <label>
+                        <span>Your Name</span>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </label>
+                    <label>
+                        <span>Your Email</span>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </label>
+                    <label>
+                        <span>Your Message</span>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </label>
+                    <button type="submit" class="morph">Send Message</button>
+                </form>
+                <p id="success-message" aria-live="polite">Message sent with peace ✨</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with peace & creativity • Mitchell © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

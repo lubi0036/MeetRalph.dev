@@ -356,18 +356,32 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.1rem;
 }
 
 .skill-bubble {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
     padding: 1.3rem 1rem;
-    border-radius: 999px;
+    border-radius: 24px;
     text-align: center;
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.18), rgba(45, 212, 191, 0.12));
     border: 1px solid rgba(255, 255, 255, 0.12);
     color: var(--color-text);
     font-weight: 600;
+}
+
+.skill-bubble strong {
+    font-size: 1.05rem;
+}
+
+.skill-bubble span {
+    color: var(--color-muted);
+    font-size: 0.86rem;
+    line-height: 1.5;
+    font-weight: 500;
 }
 
 .projects-grid {
@@ -407,6 +421,20 @@ section {
         linear-gradient(135deg, rgba(11, 16, 32, 0.2), rgba(45, 212, 191, 0.5)),
         radial-gradient(circle at bottom, rgba(255, 255, 255, 0.35), transparent 22%),
         linear-gradient(135deg, #0f172a, #0f766e);
+}
+
+.project-three {
+    background:
+        linear-gradient(135deg, rgba(15, 23, 42, 0.2), rgba(244, 114, 182, 0.48)),
+        radial-gradient(circle at top, rgba(255, 255, 255, 0.38), transparent 24%),
+        linear-gradient(135deg, #312e81, #831843);
+}
+
+.project-four {
+    background:
+        linear-gradient(135deg, rgba(15, 23, 42, 0.25), rgba(56, 189, 248, 0.48)),
+        radial-gradient(circle at bottom, rgba(255, 255, 255, 0.38), transparent 24%),
+        linear-gradient(135deg, #1e3a8a, #0369a1);
 }
 
 .project-body {

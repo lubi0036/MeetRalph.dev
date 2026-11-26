@@ -8,7 +8,7 @@ MeetRalph.dev is Ralph Lubin's peaceful, cosmic developer portfolio. It is a res
 - Light and peace display modes
 - Responsive desktop and mobile layout
 - Front-end, back-end, and database skill categories
-- Direct links to selected GitHub projects
+- Interactive project previews with technology details and GitHub links
 - Accessible navigation and contact form validation
 
 ## Technologies
@@ -40,6 +40,8 @@ Then visit `http://localhost:5500`.
 - [MemeForgeLab6](https://github.com/lubi0036/MemeForgeLab6) - PHP/Laravel project
 - [Lab7MemeForgeContainer](https://github.com/lubi0036/Lab7MemeForgeContainer) - PHP container lab
 - [invoice-manager](https://github.com/lubi0036/invoice-manager) - PHP application
+
+Project preview illustrations are stored in `docs/images/projects/`. Replace them with actual project screenshots when available.
 
 ## Author
 

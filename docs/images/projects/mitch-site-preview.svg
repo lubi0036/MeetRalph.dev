@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">mitch-site project preview</title>
+  <desc id="description">Illustrated preview of a personal portfolio website with a blue hero, about section, and project cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10182d"/>
+      <stop offset="1" stop-color="#29205c"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#315ca8"/>
+      <stop offset="1" stop-color="#7c5ce7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#080d1b"/>
+  <rect x="70" y="52" width="1460" height="796" rx="28" fill="url(#background)" stroke="#ffffff" stroke-opacity=".16" stroke-width="2"/>
+  <rect x="70" y="52" width="1460" height="70" rx="28" fill="#111a31"/>
+  <path d="M70 94v28h1460V94" fill="#111a31"/>
+  <circle cx="115" cy="87" r="13" fill="#6ee7d8"/>
+  <text x="146" y="96" fill="#f3f5ff" font-family="Arial, sans-serif" font-size="24" font-weight="700">mitch-site</text>
+  <text x="1190" y="95" fill="#bac5df" font-family="Arial, sans-serif" font-size="18">Home</text>
+  <text x="1280" y="95" fill="#bac5df" font-family="Arial, sans-serif" font-size="18">About</text>
+  <text x="1375" y="95" fill="#bac5df" font-family="Arial, sans-serif" font-size="18">Projects</text>
+  <rect x="120" y="160" width="1360" height="330" rx="24" fill="url(#hero)"/>
+  <circle cx="1330" cy="325" r="120" fill="#dbeafe" fill-opacity=".09"/>
+  <circle cx="1330" cy="325" r="78" fill="#dbeafe" fill-opacity=".1"/>
+  <text x="190" y="255" fill="#c6fff5" font-family="Arial, sans-serif" font-size="19" letter-spacing="5">WELCOME TO MY SITE</text>
+  <text x="190" y="333" fill="#ffffff" font-family="Arial, sans-serif" font-size="62" font-weight="700">A place to explore</text>
+  <text x="190" y="379" fill="#e0e7ff" font-family="Arial, sans-serif" font-size="24">A simple, responsive website built with HTML and CSS.</text>
+  <rect x="190" y="414" width="176" height="48" rx="24" fill="#f8fafc"/>
+  <text x="222" y="445" fill="#202c54" font-family="Arial, sans-serif" font-size="18" font-weight="700">Explore projects</text>
+  <text x="132" y="555" fill="#f3f5ff" font-family="Arial, sans-serif" font-size="31" font-weight="700">Selected projects</text>
+  <rect x="132" y="590" width="408" height="198" rx="18" fill="#192441" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="132" y="590" width="408" height="94" rx="18" fill="#315ca8"/>
+  <path d="M132 665v19h408v-19" fill="#315ca8"/>
+  <text x="162" y="728" fill="#ffffff" font-family="Arial, sans-serif" font-size="23" font-weight="700">My first project</text>
+  <text x="162" y="761" fill="#b9c6e2" font-family="Arial, sans-serif" font-size="17">A small step into web development.</text>
+  <rect x="568" y="590" width="408" height="198" rx="18" fill="#192441" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="568" y="590" width="408" height="94" rx="18" fill="#367d85"/>
+  <path d="M568 665v19h408v-19" fill="#367d85"/>
+  <text x="598" y="728" fill="#ffffff" font-family="Arial, sans-serif" font-size="23" font-weight="700">About me</text>
+  <text x="598" y="761" fill="#b9c6e2" font-family="Arial, sans-serif" font-size="17">Learning by building for the web.</text>
+  <rect x="1004" y="590" width="408" height="198" rx="18" fill="#192441" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="1004" y="590" width="408" height="94" rx="18" fill="#584c9c"/>
+  <path d="M1004 665v19h408v-19" fill="#584c9c"/>
+  <text x="1034" y="728" fill="#ffffff" font-family="Arial, sans-serif" font-size="23" font-weight="700">More to come</text>
+  <text x="1034" y="761" fill="#b9c6e2" font-family="Arial, sans-serif" font-size="17">A growing collection of experiments.</text>
+</svg>

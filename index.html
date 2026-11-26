@@ -106,52 +106,79 @@
                 <h2 class="section-title">Projects</h2>
             </div>
             <div class="projects-grid">
-                <article class="project-card morph">
-                    <div class="project-visual project-one"></div>
-                    <div class="project-body">
-                        <h3>mitch-site</h3>
-                        <p>A responsive HTML project exploring modern structure and front-end design.</p>
-                        <div class="project-actions">
-                            <a href="https://github.com/lubi0036/mitch-site" class="project-btn morph" target="_blank" rel="noreferrer">View on GitHub</a>
-                        </div>
-                    </div>
+                <article class="project-card">
+                    <button class="project-open morph" type="button" data-project="mitch-site" aria-haspopup="dialog">
+                        <img class="project-visual" alt="" aria-hidden="true">
+                        <span class="project-body">
+                            <span class="project-title">mitch-site</span>
+                            <span class="project-description">A responsive HTML project exploring modern structure and front-end design.</span>
+                            <span class="project-card-link">Explore project <span aria-hidden="true">→</span></span>
+                        </span>
+                    </button>
                 </article>
 
-                <article class="project-card morph">
-                    <div class="project-visual project-two"></div>
-                    <div class="project-body">
-                        <h3>Budget Tracker MVC</h3>
-                        <p>An MVC budgeting application for transactions and monthly allocations.</p>
-                        <div class="project-actions">
-                            <a href="https://github.com/lubi0036/Lab6-BudgetTracker-MVC-Application" class="project-btn morph" target="_blank" rel="noreferrer">View on GitHub</a>
-                        </div>
-                    </div>
+                <article class="project-card">
+                    <button class="project-open morph" type="button" data-project="budget-tracker" aria-haspopup="dialog">
+                        <img class="project-visual" alt="" aria-hidden="true">
+                        <span class="project-body">
+                            <span class="project-title">Budget Tracker MVC</span>
+                            <span class="project-description">An MVC budgeting application for transactions and monthly allocations.</span>
+                            <span class="project-card-link">Explore project <span aria-hidden="true">→</span></span>
+                        </span>
+                    </button>
                 </article>
 
-                <article class="project-card morph">
-                    <div class="project-visual project-three"></div>
-                    <div class="project-body">
-                        <h3>MemeForge Labs</h3>
-                        <p>PHP and Laravel-focused projects using web containers and database-backed features.</p>
-                        <div class="project-actions">
-                            <a href="https://github.com/lubi0036/MemeForgeLab6" class="project-btn morph" target="_blank" rel="noreferrer">MemeForgeLab6</a>
-                            <a href="https://github.com/lubi0036/Lab7MemeForgeContainer" class="project-btn morph" target="_blank" rel="noreferrer">Container Lab</a>
-                        </div>
-                    </div>
+                <article class="project-card">
+                    <button class="project-open morph" type="button" data-project="memeforge" aria-haspopup="dialog">
+                        <img class="project-visual" alt="" aria-hidden="true">
+                        <span class="project-body">
+                            <span class="project-title">MemeForge Labs</span>
+                            <span class="project-description">PHP meme-making projects with reusable templates, user accounts, and database-backed features.</span>
+                            <span class="project-card-link">Explore project <span aria-hidden="true">→</span></span>
+                        </span>
+                    </button>
                 </article>
 
-                <article class="project-card morph">
-                    <div class="project-visual project-four"></div>
-                    <div class="project-body">
-                        <h3>Invoice Manager</h3>
-                        <p>A PHP application demonstrating application logic, themes, and data-driven workflows.</p>
-                        <div class="project-actions">
-                            <a href="https://github.com/lubi0036/invoice-manager" class="project-btn morph" target="_blank" rel="noreferrer">View on GitHub</a>
-                        </div>
-                    </div>
+                <article class="project-card">
+                    <button class="project-open morph" type="button" data-project="invoice-manager" aria-haspopup="dialog">
+                        <img class="project-visual" alt="" aria-hidden="true">
+                        <span class="project-body">
+                            <span class="project-title">Invoice Manager</span>
+                            <span class="project-description">A PHP application demonstrating application logic, themes, and data-driven workflows.</span>
+                            <span class="project-card-link">Explore project <span aria-hidden="true">→</span></span>
+                        </span>
+                    </button>
                 </article>
             </div>
         </section>
+
+        <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title" aria-describedby="project-dialog-description">
+            <div class="project-dialog-content">
+                <div class="project-dialog-header">
+                    <p class="section-kicker">Project preview</p>
+                    <button class="project-close" type="button" aria-label="Close project preview">×</button>
+                </div>
+                <img class="project-preview-image" alt="">
+                <div class="project-preview-details">
+                    <div>
+                        <p class="project-preview-count" aria-live="polite"></p>
+                        <h2 id="project-dialog-title"></h2>
+                        <p class="project-preview-description" id="project-dialog-description"></p>
+                    </div>
+                    <div class="project-technologies">
+                        <h3>Technologies used</h3>
+                        <ul class="technology-list"></ul>
+                    </div>
+                </div>
+                <div class="project-dialog-footer">
+                    <div class="project-preview-navigation">
+                        <button class="project-previous" type="button">← Previous</button>
+                        <button class="project-next" type="button">Next →</button>
+                    </div>
+                    <div class="project-repository-links"></div>
+                </div>
+            </div>
+        </dialog>
 
         <section id="contact">
             <div class="section-heading">
